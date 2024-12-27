@@ -15,4 +15,12 @@ This small utility script lets you easily gather and print the contents of selec
        # "docs",
    ]
 
-3. **Run python script**
+3. **Run the script** in your terminal:
+   ```bash
+   python print_files.py
+   ```
+   This will generate a file called `files_explanation.txt` with:
+   - A tree-structure outline of the included directories/files
+   - The contents of each file (for allowed extensions)
+
+4. **Copy the contents** of `files_explanation.txt` into ChatGPT (or another LLM), and you’ll have a complete textual snapshot of your codebase for easier reference or sharing.
