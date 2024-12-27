@@ -11,7 +11,7 @@ paths = [
 ]
 
 # Only include files that have these extensions
-allowed_extensions = {".py", ".js", ".json", ".yml", ".yaml", ".sh", ".md", ".html", ".css", ".txt"}
+allowed_extensions = {".py", ".js", ".json", ".yml", ".yaml", ".sh", ".md", ".html", ".css", ".txt", ".tsx", ".ts"}
 
 # Where to print the output
 file_explanation_output_file = "files_explanation.txt"
